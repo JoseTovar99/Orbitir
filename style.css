@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.container {
+    background-color: black;
+}
+
 .section1 {
     background-image: url(img/EarthTest.jpg);
     height: 750px;
@@ -99,6 +103,64 @@
 .exploreTitle h2:hover {
     background-color: #99846bab;
     cursor: pointer;
+}
+
+
+
+/* Section 2 */
+
+.section2 {
+    padding-top: 4rem;
+}
+
+.marsTitle {
+    color: white;
+    text-align: center;
+}
+.marsTitle h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.marsTitle h3 {
+    font-weight: lighter;
+    font-size: 2rem;
+    color: #C7A987;
+}
+
+.marsImage img {
+    width: 400px;
+    margin-top: 3rem;
+}
+.marsDecr {
+    color: white;
+    width: 700px;
+    font-size: 1.5rem;
+}
+.marsDecr h3 {
+    font-weight: bold;
+}
+.marsDecr h5 {
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.marsDecr h4 {
+    margin-top: 10px;
+    background-color: #C7A987;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
+.marsDecr h4:hover {
+    cursor: pointer;
+    background-color: #af9679c2;
+}
+.planetFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media (min-width: 1600px) {
