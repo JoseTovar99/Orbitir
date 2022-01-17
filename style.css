@@ -1,0 +1,53 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-image: url(img/Earth.jpg);
+    height: 800px;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLogo img {
+    width: 100px;
+}
+.navTitle {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.navSearch {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.navSearch .fas {
+    font-size: 1.5rem;
+    color: white;
+}
+.navSearch h4 {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+
+@media (min-width: 1600px) {
+    .section1 {
+        height: 1000px;
+    }
+}
+
+
