@@ -163,6 +163,34 @@
     justify-content: space-around;
 }
 
+
+/* Section 3 */
+
+.section3 {
+    padding-top: 6rem;
+}
+
+.rocketsTitle {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #C7A987;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+.rockets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.rockets img {
+    width: 550px;
+}
+
+
+
 @media (min-width: 1600px) {
     .section1 {
         height: 1000px;
