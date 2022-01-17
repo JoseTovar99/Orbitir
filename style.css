@@ -128,8 +128,8 @@
 }
 
 .marsImage img {
-    width: 400px;
-    margin-top: 3rem;
+    width: 500px;
+    margin-top: 2rem;
 }
 .marsDecr {
     color: white;
@@ -140,7 +140,7 @@
     font-weight: bold;
 }
 .marsDecr h5 {
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: lighter;
     font-size: 1rem;
 }
