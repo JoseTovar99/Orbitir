@@ -5,8 +5,8 @@
 }
 
 .section1 {
-    background-image: url(img/Earth.jpg);
-    height: 800px;
+    background-image: url(img/EarthTest.jpg);
+    height: 750px;
     padding-top: 30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,26 +23,83 @@
 }
 .navTitle {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     color: white;
+    margin-left: -15rem;
+}
+.underline {
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease;
+    font-weight: bolder;
+}
+.underline:hover {
+    cursor: pointer;
+    color: #C7A987;
+}
+.underline::after {
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #C7A987;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    margin-bottom: -5px;
 }
 .navSearch {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     color: white;
+}
+.navSearch h4 {
+    transition: all 0.5s ease;
+    font-weight: lighter;
+}
+.navSearch h4:hover {
+    color: #C7A987;
+    cursor: pointer;
 }
 .navSearch .fas {
     font-size: 1.5rem;
-    color: white;
+    color: #C7A987;
+    cursor: pointer;
 }
 .navSearch h4 {
     border-radius: 10px;
     padding: 5px;
 }
 
-
-
+.exploreTitle {
+    color: white;
+    text-align: center;
+    margin-top: 8rem;
+}
+.exploreTitle h1 {
+    font-size: 3rem;
+}
+.exploreTitle h2 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    background-color: #b99a75;
+    display:inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    transition: all 0.5s ease;
+}
+.exploreTitle h2:hover {
+    background-color: #99846bab;
+    cursor: pointer;
+}
 
 @media (min-width: 1600px) {
     .section1 {
