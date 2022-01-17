@@ -184,11 +184,32 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding-bottom: 30px;
 }
 .rockets img {
     width: 550px;
-}
 
+}
+.rocketDescr {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.rocketDescr h2 {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: #C7A987;
+    font-size: 1rem;
+}
+.rocketDescr h2:hover {
+    background-color: #99846bab;
+    cursor: pointer;
+}
 
 
 @media (min-width: 1600px) {
