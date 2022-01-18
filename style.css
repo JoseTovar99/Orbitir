@@ -1,5 +1,5 @@
 * {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -89,20 +89,22 @@
 }
 .exploreTitle h1 {
     font-size: 3rem;
+    font-weight: lighter;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 .exploreTitle h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
-    background-color: #b99a75;
     display:inline-block;
     border-radius: 5px;
     padding: 10px;
-    border: none;
+    border: 2px solid #C7A987;
     transition: all 0.5s ease;
 }
 .exploreTitle h2:hover {
-    background-color: #99846bab;
     cursor: pointer;
+    background-color: #C7A987;
 }
 
 
@@ -269,7 +271,9 @@
     font-size: 1.8rem;
     margin-left: -1rem;
 }
-
+.colorChange {
+    color: #C7A987;
+}
 
 /* Section 5 */
 
@@ -286,6 +290,30 @@
     color: white;
     width: 600px;
     gap: 50px;
+}
+.phoneDescr h2 {
+    font-size: 2.5rem;
+}
+.phoneDescr hr {
+    background-color: #C7A987;
+    height: 2px;
+    border: none;
+    width: 100px;
+}
+.phoneDescr h4 {
+    font-size: 1.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    transition: all 0.5s ease;
+    text-align: center;
+    background-color: #C7A987;
+    width: 200px;
+}
+.phoneDescr h4:hover {
+    background-color: #99846b;
+    cursor: pointer;
 }
 .phoneImg img {
     width: 250px;
