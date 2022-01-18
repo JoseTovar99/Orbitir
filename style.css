@@ -211,6 +211,41 @@
     cursor: pointer;
 }
 
+/* Section 4 */
+
+.section4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.earthTitle {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.earthTitle h1 {
+    font-size: 3rem;
+    width: 500px;
+}
+.earthTitle h3 {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: #C7A987;
+    font-size: 2rem;
+    text-align: center;
+    width: 200px;
+}
+.earthImg img {
+    width: 550px;
+}
+
+
 
 @media (min-width: 1600px) {
     .section1 {
