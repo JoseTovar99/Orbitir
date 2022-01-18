@@ -9,7 +9,7 @@
 }
 
 .section1 {
-    background-image: url(img/EarthTest.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/EarthTest.jpg') fixed;
     height: 750px;
     padding-top: 30px;
     background-repeat: no-repeat;
@@ -143,9 +143,12 @@
     margin-top: 50px;
     font-weight: lighter;
     font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #C7A987;
+    text-underline-offset: 5px;
 }
 .marsDecr h4 {
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #C7A987;
     display: inline-block;
     padding: 7px;
@@ -168,6 +171,7 @@
 
 .section3 {
     padding-top: 6rem;
+    padding-bottom: 5rem;
 }
 
 .rocketsTitle {
@@ -215,9 +219,11 @@
 
 .section4 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Earth.jpg');
 }
 
 .earthTitle {
@@ -236,13 +242,32 @@
     padding: 5px;
     border: none;
     transition: all 0.5s ease;
-    background-color: #C7A987;
     font-size: 2rem;
     text-align: center;
     width: 200px;
 }
+.earthTitle h3:hover {
+    cursor: pointer;
+}
 .earthImg img {
-    width: 550px;
+    width: 400px;
+}
+.iconFlex {
+    display: flex;
+    align-items: center;
+    gap: -1rem;
+    background-color: #C7A987;
+    width: 250px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.iconFlex:hover {
+    background-color: #99846bab;
+    cursor: pointer;
+}
+.iconFlex .fas {
+    font-size: 1.8rem;
+    margin-left: -1rem;
 }
 
 
