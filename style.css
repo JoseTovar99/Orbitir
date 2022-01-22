@@ -330,8 +330,7 @@
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/galaxy.jfif');
-    
+    background-color: rgb(15, 15, 15);    
 }
 .bottomLogo img {
     width: 100px;
@@ -348,6 +347,13 @@
     text-decoration: underline;
     text-decoration-color: #C7A987;
     text-underline-offset: 4px;
+}
+.listSection h4 {
+    transition: all 0.5s ease;
+}
+.listSection h4:hover {
+    cursor: pointer;
+    color: #C7A987;
 }
 
 
