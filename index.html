@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=PT+Sans&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@700&family=Urbanist&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Orbitir</title>
 </head>
@@ -29,19 +31,19 @@
                     <i class="fas fa-search"></i>
                 </div>
             </div>
-            <div class="exploreTitle">
+            <div data-aos="fade-up" data-aos-duration="2000" class="exploreTitle">
                 <h1>EXPLORE THE UNKNOWN.</h1>
                 <h2>BOOK A FLIGHT</h2>
             </div>
         </div>
 
         <div class="section2">
-            <div class="marsTitle">
+            <div data-aos="fade-up" data-aos-duration="1000" class="marsTitle">
                 <h1>MARS</h1>
                 <h3>228.69 Million Mi.</h3>
             </div>
             <div class="planetFlex">
-                <div class="marsImage">
+                <div  data-aos="fade-right" data-aos-duration="2000" class="marsImage">
                     <img src="img/MarsTest.JPG" alt="">
                 </div>
                 <div class="marsDecr">
@@ -60,7 +62,7 @@
                 <img src="img/Syth.JPG" alt="">
                 <img src="img/Sentiel.JPG" alt="">
             </div>
-            <div class="rocketDescr">
+            <div data-aos="fade-up" data-aos-duration="1500" class="rocketDescr">
                 <h2>LEARN MORE</h2>
                 <h2>LEARN MORE</h2>
             </div>
@@ -104,5 +106,9 @@
 
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
