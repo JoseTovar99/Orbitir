@@ -282,6 +282,7 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .phoneDescr {
@@ -318,6 +319,37 @@
 .phoneImg img {
     width: 250px;
 }
+
+
+/* Section 6 */
+
+.section6 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/galaxy.jfif');
+    
+}
+.bottomLogo img {
+    width: 100px;
+}
+
+.listSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-right: 5rem;
+}
+.listSection h2 {
+    text-decoration: underline;
+    text-decoration-color: #C7A987;
+    text-underline-offset: 4px;
+}
+
 
 
 @media (min-width: 1600px) {
