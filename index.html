@@ -39,19 +39,19 @@
 
         <div class="section2">
             <div data-aos="fade-up" data-aos-duration="1000" class="marsTitle">
-                <h1>MARS</h1>
-                <h3>228.69 Million Mi.</h3>
+                <h1 id="titleChange">MARS</h1>
+                <h3 id="milesChange">228.69 million miles</h3>
             </div>
             <div class="planetFlex">
                 <div  data-aos="fade-right" data-aos-duration="2000" class="marsImage">
-                    <img id="marsID" src="img/MarsTest.JPG" alt="">
+                    <img id="marsID" src="img/MarsTest3.JPG" alt="">
                 </div>
                 <div class="marsDecr">
-                    <button class="choosePlanet" onclick="document.getElementById('marsID').src='img/MarsTest.JPG'">MARS</button>
-                    <button class="choosePlanet" onclick="document.getElementById('marsID').src='img/Neptune.JPG'">NEPTUNE</button>
-                    <h3>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. Referred to as the "Red Planet", it features a rocky terrain with a red-orange tone.</h3>
+                    <button class="choosePlanet" onclick="document.getElementById('marsID').src='img/MarsTest3.JPG'; document.getElementById('marsChange').innerHTML = 'Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. Referred to as the Red Planet, it features a rocky terrain with a red-orange tone.'; document.getElementById('titleChange').innerHTML = 'MARS'; document.getElementById('milesChange').innerHTML = '228.69 million miles'; document.getElementById('dateChange').innerHTML = 'May 1, 2022'">MARS</button>
+                    <button class="choosePlanet" onclick="document.getElementById('marsID').src='img/Neptune3.JPG'; document.getElementById('marsChange').innerHTML = 'Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth'; document.getElementById('titleChange').innerHTML = 'NEPTUNE'; document.getElementById('milesChange').innerHTML = '2.8409 billion miles'; document.getElementById('dateChange').innerHTML = 'July 14, 2022'">NEPTUNE</button>
+                    <h3 id="marsChange">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. Referred to as the Red Planet, it features a rocky terrain with a red-orange tone.</h3>
                     <h5>Next Available Flight:</h5>
-                    <h4>May 1, 2022</h4>
+                    <h4 id="dateChange">May 1, 2022</h4>
                 </div>
             </div>
         </div>
