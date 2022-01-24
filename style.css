@@ -108,6 +108,42 @@
 }
 
 
+/* Section1Half */
+.section1Half {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/spaceship.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    border: 2px solid #C7A987;
+}
+.galaxyTitle {
+    color: white;
+    width: 650px;
+    font-size: 1.2rem;
+    
+}
+.galaxyTitle h4 {
+    margin-top: 2rem;
+    background-color: #C7A987;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    transition: all 0.5s ease;
+}
+.galaxyTitle h4:hover {
+    background-color: #967c5f;
+    cursor: pointer;
+}
+
+
 
 /* Section 2 */
 
