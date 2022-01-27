@@ -463,3 +463,71 @@
     }
 }
 
+@media (max-width: 900px) {
+    .rockets img {
+        width: 300px;
+    }
+    .phoneImg img {
+        width: 200px;
+    }
+    .phoneDescr h2 {
+        font-size: 1.5rem;
+        width: 250px;
+    }
+    .section5 {
+        margin-left: 5rem;
+        gap: 5rem;
+    }
+    .rocketsTitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .section4 {
+        flex-direction: column;
+    }
+    .earthImg img {
+        display: none;
+    }
+    .section1Half {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .section5 {
+        flex-direction: column;
+    }
+    .phoneImg img {
+        margin-left: -4rem;
+    }
+    .phoneDescr {
+        margin-left: 6rem;
+    }
+    .phoneDescr h2 {
+        width: 400px;
+    }
+    .bottomLogo img {
+        display: none;
+    }
+    .rockets {
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+    .rocketDescr #removeBtn {
+        display: none;
+    }
+    .marsDecr {
+        margin-left: 15rem;
+    }
+    .marsDecr h3 {
+        font-size: 1.5rem;
+        width: 450px;
+    }
+    .planetFlex{
+        
+    }
+}
+
