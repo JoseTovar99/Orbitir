@@ -432,6 +432,9 @@
     .galaxyImg img {
         width: 300px;
     }
+    .navTitle {
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -528,6 +531,16 @@
     }
     .planetFlex{
         
+    }
+}
+
+@media (max-width: 550px) {
+    .marsImage img {
+        width: 300px;
+    }
+    .earthTitle h1 {
+        font-size: 1.5rem;
+        width: 300px;
     }
 }
 
