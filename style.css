@@ -20,11 +20,26 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .navLogo img {
     width: 100px;
 }
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    margin-top: 2.5rem;
+}
+.hamburger:focus {
+    outline: none;
+}
+
 .navTitle {
     display: flex;
     gap: 30px;
@@ -397,7 +412,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    margin-right: 5rem;
+    width: auto;
 }
 .listSection h2 {
     text-decoration: underline;
@@ -443,7 +458,8 @@
     }
     .marsDecr {
         padding-top: 4rem;
-        width: 700px;
+        width: auto;
+        margin: 5rem;
     }
     .galaxyTitle {
         font-size: 1rem;
@@ -496,17 +512,27 @@
     .section1Half {
         flex-direction: column;
     }
+    .navTitle {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navSearch {
+        display: none;
+    }
+    .navTitle.show {
+        display: flex;
+    }
 }
 
 @media (max-width: 700px) {
     .section5 {
         flex-direction: column;
-    }
-    .phoneImg img {
-        margin-left: -4rem;
-    }
-    .phoneDescr {
-        margin-left: 6rem;
+        align-items: center;
     }
     .phoneDescr h2 {
         width: 400px;
@@ -522,15 +548,9 @@
     .rocketDescr #removeBtn {
         display: none;
     }
-    .marsDecr {
-        margin-left: 15rem;
-    }
-    .marsDecr h3 {
-        font-size: 1.5rem;
-        width: 450px;
-    }
     .planetFlex{
-        
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -541,6 +561,20 @@
     .earthTitle h1 {
         font-size: 1.5rem;
         width: 300px;
+    }
+    .galaxyTitle {
+        font-size: .7rem;
+        width: auto;
+        margin: 2rem;
+    }
+    .galaxyImg img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 420px) {
+    .listSection {
+        flex-direction: column;
     }
 }
 
