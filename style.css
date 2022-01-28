@@ -586,6 +586,10 @@
     .section5 {
         margin-right: 5rem;
     }
+    .section1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/EarthTest.jpg');
+
+    }
 }
 
 @media (max-width: 420px) {
