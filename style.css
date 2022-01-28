@@ -148,7 +148,7 @@
 }
 .galaxyTitle h4 {
     margin-top: 2rem;
-    background-color: #C7A987;
+    border: 2px solid #C7A987;
     display: inline-block;
     padding: 7px;
     border-radius: 5px;
@@ -156,7 +156,7 @@
     transition: all 0.5s ease;
 }
 .galaxyTitle h4:hover {
-    background-color: #967c5f;
+    background-color: #C7A987;
     cursor: pointer;
 }
 
@@ -207,16 +207,16 @@
 }
 .marsDecr h4 {
     margin-top: 20px;
-    background-color: #C7A987;
     display: inline-block;
     padding: 7px;
+    border: 2px solid #C7A987;
     border-radius: 5px;
     font-size: 1.5rem;
     transition: all 0.5s ease;
 }
 .marsDecr h4:hover {
     cursor: pointer;
-    background-color: #af9679c2;
+    background-color: #C7A987;
 }
 .planetFlex {
     display: flex;
@@ -280,11 +280,11 @@
     padding: 10px;
     border: none;
     transition: all 0.5s ease;
-    background-color: #C7A987;
+    border: 2px solid #C7A987;
     font-size: 1rem;
 }
 .rocketDescr h2:hover {
-    background-color: #99846bab;
+    background-color: #C7A987;
     cursor: pointer;
 }
 
@@ -329,13 +329,13 @@
     display: flex;
     align-items: center;
     gap: -1rem;
-    background-color: #C7A987;
+    border: 2px solid #C7A987;
     width: 250px;
     border-radius: 5px;
     transition: all 0.5s ease;
 }
 .iconFlex:hover {
-    background-color: #99846b;
+    background-color: #C7A987;
     cursor: pointer;
 }
 .iconFlex .fas {
@@ -380,11 +380,11 @@
     border: none;
     transition: all 0.5s ease;
     text-align: center;
-    background-color: #C7A987;
+    border: 2px solid #C7A987;
     width: 200px;
 }
 .phoneDescr h4:hover {
-    background-color: #99846b;
+    background-color: #C7A987;
     cursor: pointer;
 }
 .phoneImg img {
