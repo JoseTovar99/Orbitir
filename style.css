@@ -47,6 +47,11 @@
     margin-left: -15rem;
     margin-top: 2.5rem;
 }
+a { 
+    color: inherit; 
+} 
+
+
 .underline {
     display: inline-block;
     position: relative;
