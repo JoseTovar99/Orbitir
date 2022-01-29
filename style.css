@@ -8,6 +8,12 @@
     background-color: black;
 }
 
+.container2 .section1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rocket.jpg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section1 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/EarthTest.jpg') fixed;
     height: 750px;
@@ -431,6 +437,17 @@ a {
     cursor: pointer;
     color: #C7A987;
 }
+
+
+/* Flights Page */
+
+.flightsTitle {
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
 
 
 
