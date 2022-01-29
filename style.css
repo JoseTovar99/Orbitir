@@ -9,7 +9,7 @@
 }
 
 .container2 .section1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rocket.jpg') fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rocket.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -447,6 +447,67 @@ a {
     font-size: 1.8rem;
     color: white;
 }
+.inputSearch {
+    text-align: center;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.inputSearch #planetSearch {
+    padding: 10px;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid #C7A987;
+    border-radius: 10px;
+}
+.inputSearch #planetSearch:hover {
+    cursor: pointer;
+}
+option {
+    background-color: #C7A987;
+    color: white;
+    border: none;
+}
+
+/* Flights1 */
+
+.flights1 {
+    background-color: black;
+    height: 600px;
+    padding-top: 8rem;
+}
+.flights1Title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin: 3rem;
+}
+.flights1Title h2 {
+    font-size: 2.5rem;
+}
+.flights1Title img {
+    width: 600px;
+}
+.textFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.textFlex h4 {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.textFlex h5 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
 
 
 
