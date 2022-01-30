@@ -493,10 +493,18 @@ option {
 .flights1Title img {
     width: 600px;
 }
+.hr {
+    border-left: 2px solid #C7A987;
+    height: 400px;
+}
 .textFlex {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.textFlex h3 {
+    border: 2px solid #C7A987;
+
 }
 .textFlex h4 {
     font-weight: lighter;
@@ -506,6 +514,7 @@ option {
 .textFlex h5 {
     font-weight: lighter;
     font-size: 1.2rem;
+    color: #C7A987;
 }
 
 
