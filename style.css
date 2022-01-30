@@ -516,6 +516,9 @@ option {
     font-size: 1.2rem;
     color: #C7A987;
 }
+#paragraphColor {
+    color: #C7A987;
+}
 
 
 
@@ -553,6 +556,15 @@ option {
     }
     .navTitle {
         margin-left: 1rem;
+    }
+    .flights1Title {
+        flex-direction: column;
+    }
+    .flights1 {
+        height: 900px;
+    }
+    .hr {
+        display: none;
     }
 }
 
@@ -603,6 +615,9 @@ option {
     }
     .rocketsTitle {
         font-size: 1rem;
+    }
+    .textFlex h2 {
+        font-size: 2rem;
     }
 }
 
@@ -692,7 +707,9 @@ option {
     }
     .section1 {
         background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('img/EarthTest.jpg');
-
+    }
+    .flights1Title img {
+        width: 400px;
     }
 }
 
@@ -710,6 +727,9 @@ option {
     }
     .rocketsTitle h1 {
         font-size: 1.5rem;
+    }
+    .flights1Title img {
+        width: 300px;
     }
 }
 
