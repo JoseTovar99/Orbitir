@@ -373,7 +373,7 @@ a {
 }
 .phoneDescr hr {
     background-color: #C7A987;
-    height: 2px;
+    height: 1.5px;
     border: none;
     width: 100px;
 }
@@ -514,6 +514,64 @@ option {
     color: #C7A987;
 }
 
+/* Astronaut Page */
+.astronaut {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/orbitirAstro3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.textImgFlex {
+    width: 600px;
+}
+.textImgFlex h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.textImgFlex h4 {
+    color: white;
+    border: 2px solid #C7A987;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    transition:  all 0.5s ease;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.textImgFlex h4:hover {
+    background-color: #C7A987;
+    cursor: pointer;
+}
+.requirements {
+    border: 2px solid #C7A987;
+    padding: 10px;
+}
+.requirements h3 {
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #C7A987;
+    text-decoration-thickness: 2px;
+}
+.requirements h5 {
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.textImgFlex hr {
+    background-color: #C7A987;
+    height: 2px;
+    border: none;
+    width: 100px;
+    margin-top: 1rem;
+}
 
 
 
@@ -562,6 +620,11 @@ option {
     }
     .hr {
         display: none;
+    }
+    .astronaut {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
