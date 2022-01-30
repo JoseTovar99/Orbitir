@@ -771,6 +771,25 @@ option {
     .flights1Title img {
         width: 400px;
     }
+    .textImgFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .textImgFlex h2 {
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .textImgFlex h4 {
+        font-size: 1rem;
+    }
+    .requirements {
+        width: 300px;
+    }
+    .astronaut {
+        padding-bottom: 8rem;
+    }
 }
 
 @media (max-width: 420px) {
