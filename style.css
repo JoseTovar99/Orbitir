@@ -3,10 +3,7 @@
     margin: 0;
     padding: 0;
 }
-html, body {
-    height:100%;
-    overflow:auto;
-}
+
 
 
 .container {
@@ -198,6 +195,7 @@ a {
 .marsImage img {
     width: 500px;
     margin-top: 2rem;
+    z-index: 3;
 }
 .marsDecr {
     color: white;
