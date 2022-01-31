@@ -573,10 +573,18 @@ option {
     margin-top: 1rem;
 }
 
+/* Video Section */
+.videoFlex {
+    
+}
 
+#background-video {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+    filter: brightness(70%);
+  }
 
-
-/* Index Page */
 
 @media (min-width: 1600px) {
     .section1 {
@@ -596,6 +604,13 @@ option {
     }
     .textFlex {
         width: 500px;
+    }
+    .requirements h5 {
+        font-size: 1.5rem;
+        width: 600px;
+    }
+    .textImgFlex hr {
+        margin-top: 3rem;
     }
 }
 
@@ -705,6 +720,9 @@ option {
     }
     .navTitle.show {
         display: flex;
+    }
+    #background-video {
+        display: none;
     }
 }
 
