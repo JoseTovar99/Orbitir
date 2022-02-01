@@ -24,7 +24,7 @@ btn2.addEventListener('click', () => {
 })
 
 btn3.addEventListener('click', () => {
-    img.src = 'img/jupiter1.jpg';
+    img.src = 'img/jupiter1.JPG';
     document.getElementById("titleChange").innerHTML = "JUPITER";
     document.getElementById("milesChange").innerHTML = "545.17 million miles";
     document.getElementById("marsChange").innerHTML = "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined";
