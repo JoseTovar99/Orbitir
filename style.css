@@ -226,6 +226,9 @@ a {
     cursor: pointer;
     background-color: #C7A987;
 }
+.marsDecr #marginLow {
+    margin-bottom: 2rem;
+}
 .planetFlex {
     display: flex;
     align-items: center;
