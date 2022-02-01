@@ -849,6 +849,10 @@ option {
     .astronaut {
         padding-bottom: 8rem;
     }
+    .marsDecr h4 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 420px) {
@@ -865,6 +869,9 @@ option {
     }
     .flights1Title img {
         width: 300px;
+    }
+    .marsDecr h3 {
+
     }
 }
 
